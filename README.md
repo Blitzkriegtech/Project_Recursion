@@ -3,7 +3,7 @@ Tackle two classic problems: Fibonnaci and Merge sort using recursion
 
 This project demonstrates various recursive techniques in Ruby. It includes implementations for generating the Fibonacci sequence using both iterative (with inject) and recursive approaches, as well as a merge sort algorithm that uses recursion for splitting and merging arrays.
 
-#Table of Contents
+# Table of Contents
 - Overview
 
 - Fibonacci Sequence
@@ -25,11 +25,11 @@ This project demonstrates various recursive techniques in Ruby. It includes impl
 # Overview
 This repository includes Ruby code that demonstrates:
 
-    - Building the Fibonacci sequence using Ruby's inject method.
+ - Building the Fibonacci sequence using Ruby's inject method.
 
-    - Calculating Fibonacci numbers with recursion, returning either a single Fibonacci number or the entire    sequence as an array.
+ - Calculating Fibonacci numbers with recursion, returning either a single Fibonacci number or the entire    sequence as an array.
 
-    - Implementing the merge sort algorithm by recursively splitting and merging arrays.
+ - Implementing the merge sort algorithm by recursively splitting and merging arrays.
 
 # Fibonacci Sequence
 
