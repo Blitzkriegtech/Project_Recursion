@@ -14,9 +14,9 @@ This project demonstrates various recursive techniques in Ruby. It includes impl
 
 - Merge Sort
 
-    -Merge Function
+    - Merge Function
 
-    -Merge Sort Function
+    - Merge Sort Function
 
 - Usage
 
@@ -35,7 +35,7 @@ This project demonstrates various recursive techniques in Ruby. It includes impl
 
 ## Fibonacci with Inject
 
-    This implementation uses the inject method to build an array containing the Fibonacci sequence. It starts with a base array of [0, 1] and uses a range to iterate from the 3rd term onward, appending each new term computed as the sum of the last two elements.
+This implementation uses the inject method to build an array containing the Fibonacci sequence. It starts with a base array of [0, 1] and uses a range to iterate from the 3rd term onward, appending each new term computed as the sum of the last two elements.
 
     ```ruby
     def fibs(num)
@@ -50,7 +50,7 @@ This project demonstrates various recursive techniques in Ruby. It includes impl
     ```
 
 # Recursive Fibonacci (Array Version)
-## This version builds and returns the entire Fibonacci sequence as an array. The base cases return the appropriate array based on the requested length. For numbers greater than 2, it recursively builds the sequence and appends the next Fibonacci number.
+This version builds and returns the entire Fibonacci sequence as an array. The base cases return the appropriate array based on the requested length. For numbers greater than 2, it recursively builds the sequence and appends the next Fibonacci number.
 
 ```ruby
 
@@ -67,10 +67,10 @@ p fibs_rec(8)  # Expected output: [0, 1, 1, 2, 3, 5, 8, 13]
 ```
 
 # Merge Sort
-    The merge sort algorithm is implemented in two parts: a merge function that combines two sorted arrays into one, and a merge_sort function that recursively splits an array and then merges the sorted halves.
+The merge sort algorithm is implemented in two parts: a merge function that combines two sorted arrays into one, and a merge_sort function that recursively splits an array and then merges the sorted halves.
 
 # Merge Function
-    The merge function compares the first elements of two sorted arrays and recursively builds a new sorted array. Notice how it uses array slicing ([1..-1]) and array concatenation with the + operator.
+The merge function compares the first elements of two sorted arrays and recursively builds a new sorted array. Notice how it uses array slicing ([1..-1]) and array concatenation with the + operator.
 
 ```ruby
 
@@ -88,7 +88,7 @@ end
 ```
 
 # Merge Sort Function
-    The merge_sort function recursively splits the input array into halves until arrays of length 1 or 0 are reached. It then uses the merge function to combine these arrays back together in sorted order.
+The merge_sort function recursively splits the input array into halves until arrays of length 1 or 0 are reached. It then uses the merge function to combine these arrays back together in sorted order.
 
 ```ruby
 
@@ -103,7 +103,7 @@ end
 ```
 
 # Usage
-    To run any of these methods, simply execute the Ruby file. For example, if you save the code in a file called recursion_project.rb, you can run it using:
+To run any of these methods, simply execute the Ruby file. For example, if you save the code in a file called recursion_project.rb, you can run it using:
 
 ```bash
 ruby recursion_project.rb
