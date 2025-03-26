@@ -23,7 +23,7 @@ This project demonstrates various recursive techniques in Ruby. It includes impl
 - License
 
 # Overview
-    This repository includes Ruby code that demonstrates:
+This repository includes Ruby code that demonstrates:
 
     - Building the Fibonacci sequence using Ruby's inject method.
 
@@ -37,7 +37,7 @@ This project demonstrates various recursive techniques in Ruby. It includes impl
 
 This implementation uses the inject method to build an array containing the Fibonacci sequence. It starts with a base array of [0, 1] and uses a range to iterate from the 3rd term onward, appending each new term computed as the sum of the last two elements.
 
-    ```ruby
+```ruby
     def fibs(num)
       return [] if num <= 0         # Return empty array for non-positive input.
       return [0] if num == 1        # Return only [0] if num is 1.
@@ -47,7 +47,7 @@ This implementation uses the inject method to build an array containing the Fibo
     end
 
     puts fibs(8)  # Expected output: [0, 1, 1, 2, 3, 5, 8, 13]
-    ```
+```
 
 # Recursive Fibonacci (Array Version)
 This version builds and returns the entire Fibonacci sequence as an array. The base cases return the appropriate array based on the requested length. For numbers greater than 2, it recursively builds the sequence and appends the next Fibonacci number.
